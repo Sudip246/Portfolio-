@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudip Sapkota</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5fbf9fac14.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars"onclick="openmenu()"></i>
+            </nav> 
+            <div class="header-text ">
+                <p>Backend Developer</p>
+                <h1>Hi, I'm <span>Sudip</span><br> Sapkota From Nepal.</h1>
+            </div>
+        </div>
+    </div>
+<!-- ---------------About-------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images\Sudip2.jpg">
+                </div>
+
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>IT enthusiast student with an excellent mindset and creative mindset.As an IT student seeking a role to enhance and explore the knowledge gained through my practice in College.
+                    Practicing Python and Django in Boardways Infosys Nepal to increase knowledge and gain experence to do better in same field as I am interested in backend web developing.</p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+    <!-- --------------------------------Skills-------------------------- -->
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>JavaScript</span><br>Calculator Web/App Interface</li><br>
+                            <li><span>Python</span><br>Personal Blog </li><br>
+                            <li><span>Django</span><br>Student Management System</li>
+                        </ul>
+                    </div>
+    <!-- -------------------------Experience----------------------------------- -->
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022-2023</span><br>Python and Django at Boardways Infosys </li><br>
+                            <li><span>2022/4-2022/7</span><br>Django Rest API atTexas Imaginology </li><br>
+                            <li><span>2019</span><br>Internship at Somewhere</li>
+                        </ul>
+                    </div>
+    <!-- ---------------------------------------Education---------------------------- -->
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021-Current</span><br>Bachelor in Information and Techonology at Texas College of Mgmt & IT </li><br>
+                            <li><span>2017-2019 </span><br>+2 Major Science from Triton International College</li><br>
+                            <li><span>-2017</span><br>SEE from Apollo International Academy</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+<!-- ----------------------Services---------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Here you can get servicesfor any backend development of any web pages that you need and according to your need and requirement.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Rest API Framework</h2>
+                    <p>Here you can get servicesfor any backend development of any web pages that you need and according to your need and requirement.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>GUI Interface </h2>
+                    <p>Here you can get servicesfor any backend development of any web pages that you need and according to your need and requirement.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------------------Portfolio---------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images\work-1.png">
+                    <div class="layer">
+                        <h3>My BLog</h3>
+                        <p>This blog contains all the related details about me.So you can check the details.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images\work-2.png">
+                    <div class="layer">
+                        <h3>Student Management System</h3>
+                        <p>This system contains all the related details about student.So you can check the details.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images\work-3.png">
+                    <div class="layer">
+                        <h3>Calculator App</h3>
+                        <p>This app contains all the function to calculate.It is available in Web.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+<!-- -----------------------Contact-------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i> sapkotasudip246@gmail.com</p>
+                    <p> <i class="fa-solid fa-square-phone"></i> +977-9869161716</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100009325764752"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/sudeep__sapkota/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/sudip-sapkota-4126b0256/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/SudipHub"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://twitter.com/sapkotasudeep24"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <a href="images\Sudip_Sapkota_CV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>  
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright Ⓒ Sudip Sapkota.</p>
+
+        </div>
+    </div>
+   <script src="index.js"></script>  
+</body>
+</html>
